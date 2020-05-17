@@ -1,0 +1,206 @@
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: arial, sans-serif;
+	background-image: url(img/dark.png);
+	line-height: 1.30;
+	padding-bottom: 2000px;
+	padding-top: 400px;
+}
+
+/*Latihan Satu*/
+
+.first-container {
+	max-width: 900px;
+	margin: 50px auto;
+	background-color: #BCFF00;
+	padding: 28px;
+	box-sizing: border-box;
+	display: flex;
+	border-radius: 10%;
+	box-shadow: 10px 15px 10px black;
+}
+
+.first-column {
+	flex: 3;
+	order: 2;
+	background-color: #00BBFF;
+	padding-left: 10px;
+	border: 4px solid black;
+	transform: scale(1.12);
+}
+
+.first-sidebar {
+	flex: 2;
+	order: 1;
+	margin-right: 26px;
+	background-color: #0013FF;
+	border: 2px solid black;
+	padding: 30px;
+	box-shadow: 5px 10px 15px black;
+	margin-bottom: 150px;
+}
+
+.first-sidebar h2 {
+	font-weight: bold;
+	color: #FF002C;
+}
+
+.first-sidebar ul li a {
+	font-size: 17px;
+	color: salmon;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.first-sidebar a:hover {
+	background-color: lightskyblue;
+	color: white;
+}
+
+.second-sidebar {
+	flex: 3;
+	order: 2;
+	background-color: #7200FF;
+	padding: 10px;
+	border: 2px solid black;
+	margin: 15px;
+}
+
+/*akhir latihan satu*/
+
+/*latihan dua*/
+
+.second-container {
+	max-width: 800px;
+	margin: 50px auto;
+	border-radius: 7%;
+	background-color: violet;
+	box-shadow: 10px 10px 8px black;
+}
+
+.page {
+	padding: 10px;
+	box-sizing: border-box;
+	margin: 10px;
+}
+
+.page h4 {
+	color: #FFD100;
+}
+
+.page p {
+	color: white;
+}
+
+.page.one {
+	background-color: #0094FF;
+	border-radius: 5%;
+	flex: 1;
+}
+
+.page.two {
+	background-color: #A200FF;
+	border-radius: 5%;
+	flex: 1;
+}
+
+.page.for {
+	background-color: #EE3F35;
+	border-radius: 5%;
+	flex: 1;
+}
+
+/*class for responsive*/
+
+@media screen and (min-width: 600px) {
+	.second-container {
+		display: flex;
+		justify-content: space-evenly;
+	}
+	
+/*akhir responsive, latihan dua*/
+
+.container-three {
+	width: calc(100% - 100px);
+	margin: 50px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: black;
+	border: 3px solid lightskyblue;
+	box-shadow: 10px 12px 15px black;
+}
+
+.thumbnail {
+	width: 50%;
+}
+
+.thumbnail img {
+	width: 100%;
+}
+
+/*class for responsive*/
+
+@media screen and (min-width: 600px) {
+	.container-three {
+		display: flex;
+		justify-content: center;
+	}
+
+	.thumbnail {
+		width: 25%;
+	}
+}
+
+/*akhir responsive css, akhir latihan tiga*/
+
+.container-for {
+	width: 800px;
+	height: 600px;
+	margin: 10% auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background-color: #FF00DE;
+	box-shadow: 15px 20px 15px black;
+	}
+	
+.container-for .copy {
+	text-align: center;
+	width: 800px;
+	background-color: black;
+	color: white;
+	}
+	
+.container-for .name {
+	width: 800px;
+	background-color: black;
+	color: salmon;
+	text-align: center;
+	}
+	
+.name a {
+	color: white;
+	text-decoration: none;
+	padding: 3px;
+	}
+	
+.name a:hover {
+	background-color:  lightskyblue;
+	color: white;
+	}
+	
+.container-for img {
+	width: 300px;
+	height: 300px;
+	border-radius:  50%;
+	border: 4px solid salmon;
+	box-shadow: 10px 15px 10px black;
+	margin: 0 auto;
+	}
+
