@@ -194,6 +194,12 @@ body {
 	background-color:  lightskyblue;
 	color: white;
 	}
+
+.container-for {
+	width: 800px;
+	background-color: rgba(52, 219, 235,0.1);
+	border: 3px solid #00FF87;
+	}
 	
 .container-for img {
 	width: 300px;
